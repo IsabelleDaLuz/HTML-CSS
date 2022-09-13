@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body {
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 500px;
+    background-repeat: repeat-x;
+}
+
+/*div#q1 {
+    background-color: lightskyblue;
+}
+div{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: lightgray;
+    }
+div#q2 {
+    background-image: linear-gradient(to bottom, lightskyblue, black);
+}
+
+div#q3 {
+    background-image: url('img/pattern003.png');
+}*/
+
+

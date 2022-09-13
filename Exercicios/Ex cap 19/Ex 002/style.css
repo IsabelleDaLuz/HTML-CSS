@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+div.bloco {
+    height: 200px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url('../Ex 001/img/wallpaper003.jpg');
+}
+
+div#q1 {
+    background-position: left top;
+}
+
+div#q2 {
+    background-position: left center;
+}
+
+div#q3 {
+    background-position: left bottom;
+}

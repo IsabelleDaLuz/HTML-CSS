@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+img {
+    background-size: cover;
+    background-attachment: fixed;
+}

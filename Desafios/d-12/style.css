@@ -2,20 +2,83 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+body {
+    margin: 0px;
+}
+
 header {
     background-color: black;
     color: white;
-    margin: 0px;
+    height: 200px;
 }
 
 h1 {
     font-family: 'Passion One';
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
 }
 
 header > p {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 p {
     font-family: Sriracha;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #ffffff43;
+    transition: 1s;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#fundo1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    height: 300px;
+    padding-top: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundo1 > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 200px;
+    text-shadow: 2px 2px 2px 1px #00000052;
+}
+
+#fundo2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    height: 300px;
+    padding-top: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundo2 > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.500);
+    width: 200px;
+    text-shadow: 2px 2px 2px 1px #00000052;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }

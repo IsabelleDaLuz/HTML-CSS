@@ -7,9 +7,16 @@
     padding: 0px;
 }
 
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: Sriracha, cursive;
+}
+
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header {
@@ -21,10 +28,36 @@ header {
 header h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
 }
 
 header p {
     padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size:3vw;
+}
+
+.normal {
+    background-color: white;
+}
+
+.imagem {
+    background-color: #333333;
+    color: white;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.500);
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
@@ -44,23 +77,3 @@ a:hover {
     text-decoration: underline;
 }
 
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
-}
-
-.normal {
-    background-color: white;
-}
-
-.imagem {
-    background-color: #333333;
-    color: white;
-}
-
-.imagem p {
-    background-color: rgba(0, 0, 0, 0.500);
-    width: 400px;
-}

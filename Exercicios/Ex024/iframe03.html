@@ -7,9 +7,14 @@
     <title>iframes</title>
     <style>
         iframe {
-            width: 95vw;
+            display: block;
+            width: 65vw;
             border: 2px solid black;
             height: 400px;
+            margin: auto;
+        }
+        body {
+            font: 1em arial,helvetica,sans-serif;
         }
     </style>
 </head>
@@ -24,7 +29,7 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat est fugiat quasi, voluptatum eos labore. Soluta quisquam temporibus sequi, deleniti ipsam labore sapiente fugit exercitationem fuga omnis dolores, inventore rerum.
     </p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, deserunt deleniti. Numquam ipsum totam cum accusantium omnis nobis maiores itaque! Maxime, veniam incidunt. Delectus, voluptas sunt iste velit laborum blanditiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, temporibus dolorem ullam ea veritatis ratione doloribus est maxime sed aperiam natus nulla illum, officiis vitae quidem possimus quo dicta autem! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae aut doloribus voluptate dolore expedita, autem et beatae. Eaque inventore quae aliquam quo doloribus, tenetur quod sed sunt. Earum, modi nam.</p>
-    <iframe src="" frameborder="0" name="frame">
+    <iframe src="" frameborder="0" name="frame" srcdoc="<h1>Escolha uma das opcões acima</h1> <hr> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, deserunt deleniti. Numquam ipsum totam cum accusantium omnis nobis maiores itaque! Maxime, veniam incidunt. Delectus, voluptas sunt iste velit laborum blanditiis.</p>">
 
     </iframe>
 </body>

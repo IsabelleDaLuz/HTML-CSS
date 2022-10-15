@@ -9,7 +9,7 @@
 <body>
     <h1>Exemplo de Formulario</h1>
 
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="POST">
 
     <p>
         <label for="iest">Estado</label>
@@ -40,6 +40,11 @@
             <option>Professor</option>
             <option>Engenheiro</option>
         </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem</label> <BR></BR>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
     </p>
 
     <p>

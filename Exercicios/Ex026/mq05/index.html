@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" id="menu" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li>Esportes</li>
+                <li>Politica</li>
+                <li>Tecnologia</li>
+                <li>Noticias</li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit magni animi fugiat assumenda, dignissimos architecto eveniet laudantium, iusto magnam maiores rem, dolores non tempora sunt est iste sequi dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod, ea corrupti fugiat eligendi eveniet natus nam nobis in placeat facere quibusdam, alias accusamus rerum nihil, reprehenderit possimus animi esse. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit magni animi fugiat assumenda, dignissimos architecto eveniet laudantium, iusto magnam maiores rem, dolores non tempora sunt est iste sequi dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod, ea corrupti fugiat eligendi eveniet natus nam nobis in placeat facere quibusdam, alias accusamus rerum nihil, reprehenderit possimus animi esse. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium velit magni animi fugiat assumenda, dignissimos architecto eveniet laudantium, iusto magnam maiores rem, dolores non tempora sunt est iste sequi dicta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod, ea corrupti fugiat eligendi eveniet natus nam nobis in placeat facere quibusdam, alias accusamus rerum nihil, reprehenderit possimus animi esse. </p>
+        </article>
+    </main>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+        
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>

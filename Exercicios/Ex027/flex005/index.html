@@ -1,32 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>Flex Box Centralizado</title>
     <style>
-        .conteiner {
-            background-color: lightblue;
-            display: flex;
-            padding: 10px;
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
         }
-        .item {
+        body{
             background-color: lightsalmon;
-            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif
+        }
+        main {
+            background-color: white;
+            height: 85vh;
+            width: 85vw;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        section {
+            background-color: whitesmoke;
+            height: 600px;
+            width: 600px;
+        }
+        h1 {
             text-align: center;
-            flex: auto;
+        }
+        p {
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-    </div>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aspernatur debitis? Iste iure reiciendis soluta architecto repellendus illum asperiores libero sunt ea magnam. Corporis aut sapiente nesciunt nulla blanditiis ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius sit veritatis distinctio excepturi dolores iure dolor perferendis praesentium harum dolore quas, possimus officia minima expedita. Tempora repellendus impedit praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aspernatur debitis? Iste iure reiciendis soluta architecto repellendus illum asperiores libero sunt ea magnam. Corporis aut sapiente nesciunt nulla blanditiis ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius sit veritatis distinctio excepturi dolores iure dolor perferendis praesentium harum dolore quas, possimus officia minima expedita. Tempora repellendus impedit praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, aspernatur debitis? Iste iure reiciendis soluta architecto repellendus illum asperiores libero sunt ea magnam. Corporis aut sapiente nesciunt nulla blanditiis ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eius sit veritatis distinctio excepturi dolores iure dolor perferendis praesentium harum dolore quas, possimus officia minima expedita. Tempora repellendus impedit praesentium.</p>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt=br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,12 @@
             background-color: lightblue;
             display: flex;
             padding: 10px;
-            flex-flow: wrap;
         }
         .item {
             background-color: lightsalmon;
-            border: 1px solid rgba(0, 0, 0, 0.45);
+            border: 1px solid black;
             text-align: center;
-            padding: 20px;
+            flex: auto;
         }
     </style>
 </head>
@@ -23,10 +22,10 @@
     <div class="conteiner">
         <div class="item">A</div>
         <div class="item">B</div>
-        <div class="item" style="order: 2;">C</div>
+        <div class="item">C</div>
         <div class="item">D</div>
         <div class="item">E</div>
-        <div class="item" style="order: -5;">F</div>
+        <div class="item">F</div>
         <div class="item">G</div>
     </div>
 </body>

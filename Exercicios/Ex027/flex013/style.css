@@ -22,11 +22,9 @@ header {
 }
 
 h1 {
-    border: 1px dotted black;
     flex: 0 0 200px;
 }
 nav {
-    border: 1px dotted black;
     display: flex;
     justify-content: flex-end;
 }
@@ -58,4 +56,16 @@ main {
 
 p {
     text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    header, nav {
+        flex-flow: column nowrap;
+    }
+    h1 {
+        flex-basis: 50px;
+    }
+    a {
+        width: 90vw;
+    }
 }

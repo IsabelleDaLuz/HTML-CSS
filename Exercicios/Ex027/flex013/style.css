@@ -12,21 +12,40 @@ body {
 
 header {
     background-color: gray;
+    color: white;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.350);
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
     border: 1px dotted black;
-    color: white;
+    flex: 0 0 200px;
 }
 nav {
     border: 1px dotted black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 a {
-    color: black;
+    background-color: black;
+    color: white;
     text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    transition: background-color 0.5s;
 }
 
 main {
@@ -35,4 +54,8 @@ main {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
     padding: 10px;
     margin: 15px;
+}
+
+p {
+    text-align: justify;
 }
